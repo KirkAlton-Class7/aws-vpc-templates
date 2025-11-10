@@ -1,6 +1,12 @@
 # Outputs display important information after terraform apply
 
-# Did this intuitively and it got messy. I'll fix later using multiple key-value pairs for each output block
+# Did this intuitively and it got messy. Fix later using multiple key-value pairs for each output block
+
+# Output Block Reference
+# https://developer.hashicorp.com/terraform/language/block/output
+
+# Output Data from Terraform
+# https://developer.hashicorp.com/terraform/tutorials/configuration-language/outputs
 
 output "vpc_id" {
   description = "ID of project VPC"
