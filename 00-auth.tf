@@ -22,10 +22,10 @@ provider "aws" {
 
 # Terraform backend block sets up configuration to store the state file remotely.
 # Bucket can be configured in a different region than the Terraform deployment.
-terraform {
-  backend "s3" {
-    bucket = "kirkdevsecops-terraform-state"
-    key = "class7/terraform/dev/vpc-template/terraform.tfstate"
-    region = "us-west-2"
-  }
-}
+# terraform {
+#   backend "s3" {
+#     bucket = "kirkdevsecops-terraform-state"
+#     key = "class7/terraform/dev/vpc-template/terraform.tfstate"
+#     region = "us-west-2"
+#   }
+# }
