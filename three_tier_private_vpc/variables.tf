@@ -56,3 +56,9 @@ variable "trusted_ip" {
     error_message = "Must be a valid IPv4 CIDR block address (e.g., 192.168.1.0/24 or 10.0.0.1/32)."
   }
 }
+
+variable "app" {
+  type        = string
+  description = "Application name used for unique resource name prefixes."
+  default     = "c7-vpc-templates"
+}

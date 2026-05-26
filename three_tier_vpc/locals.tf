@@ -1,4 +1,5 @@
 locals {
+  bucket_suffix = random_id.object_storage_suffix.hex
   # Environment setup
   environment = lower(var.env)
   application = var.application_name

@@ -43,3 +43,9 @@ variable "region_map" {
     "6" = "ap-southeast-2"
   }
 }
+
+variable "app" {
+  type        = string
+  description = "Application name used for unique resource name prefixes."
+  default     = "c7-vpc-templates"
+}
